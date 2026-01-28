@@ -14,8 +14,8 @@ export default function AdminClasses() {
     loadClasses();
   }, []);
   return (
-    <div className="min-h-screen bg-gray-500 p-8 text-white flex flex-col items-center">
-      <h1 className="text-3xl font-bold mb-6">Join Classes</h1>
+    <div className="min-h-screen bg-gray-200 p-8 flex flex-col items-center">
+      <h1 className="text-3xl font-bold font-serif mb-6">Join Classes</h1>
       {/* List */}
       <div className="grid md:grid-cols-3 gap-6 ">
         {classes.map(c => (

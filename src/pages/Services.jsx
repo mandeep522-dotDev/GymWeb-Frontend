@@ -80,7 +80,7 @@ export default function Services() {
   }
 
   return (
-    <div style={styles.page} className="bg-gray-500 w-full min-h-screen p-8">
+    <div style={styles.page} className="bg-gray-200 w-full min-h-screen p-8">
       <h1 className="text-3xl font-serif">Services</h1>
       <p className="text-gray-900 font-serif mb-5">Select from our available services, see descriptions and prices.</p>
 

@@ -48,14 +48,14 @@ export default function AdminDashboard() {
   };
 
   return (
-    <div className="min-h-screen w-full bg-gradient-to-r from-gray-400 to-gray-900 p-8 text-white flex gap-5">
+    <div className="min-h-screen w-full from-gray-100 p-8  flex gap-5">
         <div className="flex-1">
             <h1 className="text-3xl font-bold mb-6">Admin Panel</h1>
             {err && <div className="text-red-400 mt-2">Error: {err}</div>}
             <div className="overflow-x-auto">
-              <table className="w-full bg-gray-800">
+              <table className="w-full bg-gray-300">
                 <thead>
-                    <tr className="bg-gray-700">
+                    <tr className="bg-gray-400">
                     <th className="p-3 text-left">Name</th>
                     <th className="p-3 text-center">Email</th>
                     <th className="p-3 text-center">Role</th>

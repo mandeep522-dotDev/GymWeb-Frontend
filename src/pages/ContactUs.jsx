@@ -19,7 +19,7 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-500 flex items-center justify-center px-4">
+    <div className="min-h-screen bg-gray-200 flex items-center justify-center px-4">
       <div className="max-w-5xl w-full bg-white shadow-lg rounded-xl overflow-hidden grid md:grid-cols-2">
 
         {/* LEFT BLUE SECTION */}

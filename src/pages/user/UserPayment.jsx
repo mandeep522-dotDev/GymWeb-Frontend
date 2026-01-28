@@ -17,15 +17,15 @@ export default function Payment() {
   },[state])
 
   const handlePayment = async () => {
-  await api.post("/payment/create", {
-    name: service,
-    amount,
-    method,
-    user,
-  });
+    await api.post("/payment/create", {
+      name: service,
+      amount,
+      method,
+      user,
+    });
 
-  alert("Payment Successful 🎉");
-};
+    alert("Payment Successful 🎉");
+  };
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
@@ -131,7 +131,7 @@ export default function Payment() {
         {/* PAY BUTTON */}
         <button
           onClick={handlePayment}
-          className="w-full bg-green-600 hover:bg-green-700 text-white py-3 rounded-md font-semibold transition">
+          className="w-full bg-green-600 hover:bg-green-800 active:scale-95 text-white py-3 rounded-md font-semibold transition">
           Pay ₹{amount}
         </button>
 

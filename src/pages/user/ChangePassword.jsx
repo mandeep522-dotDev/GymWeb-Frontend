@@ -26,7 +26,7 @@ export default function ChangePassword() {
   };
 
   return (
-    <div className="max-w-md mx-auto bg-white p-6 rounded-xl shadow">
+    <div className="max-w-md mx-auto bg-gray-100 p-6 rounded-xl shadow m-20">
       <h2 className="text-2xl font-bold mb-6">Change Password</h2>
 
       <form onSubmit={handleSubmit} className="space-y-4">
