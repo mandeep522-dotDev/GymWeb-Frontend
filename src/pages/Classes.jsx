@@ -20,7 +20,7 @@ export default function AdminClasses() {
       <div className="grid md:grid-cols-3 gap-6 ">
         {classes.map(c => (
           <div key={c._id} className="bg-white p-6 rounded-xl relative h-auto">
-            <h2 className="font-semibold">{c.title}</h2>
+            <h2 className="font-bold text-black">{c.title}</h2>
             <p className="text-gray-900">Trainer : {c.trainer} • {c.schedule}</p>
             <p className="text-gray-900">Scheduled : {c.schedule}</p>
 

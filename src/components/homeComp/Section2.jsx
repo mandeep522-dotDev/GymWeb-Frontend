@@ -6,13 +6,14 @@ const ARROW = "https://www.brandium.nl/wp-content/uploads/2023/07/arrow-br.svg";
 
 export default function App() {
   const marqueRefs = useRef([]);
-  // marqueRefs.current = [];
+  
 
   const addToRefs = (el) => {
     if (el && !marqueRefs.current.includes(el)) marqueRefs.current.push(el);
   };
 
   useEffect(() => {
+    marqueRefs.current = [];
     const handleWheel = (e) => {
       if (e.deltaY > 0) {
         marqueRefs.current.forEach((el) => {

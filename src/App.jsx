@@ -17,6 +17,8 @@ import AdminClasses from "./pages/admin/AdminClasses"
 import Login from "./pages/Login"
 import Register from "./pages/Register"
 import AdminLayout from "./components/admin/AdminLayout"
+import UpdateProfile from "./pages/user/UpdateProfile.jsx";
+import ChangePassword from "./pages/user/ChangePassword.jsx";
 
 
 function App() {
@@ -33,6 +35,8 @@ function App() {
           <Route path= "/classes" element={<Classes />} />
           <Route path= "/classes" element={<Classes />} />
           <Route path= "/contact" element={<ContactUs />} />
+          <Route path="/dashboard/update-profile" element={<UpdateProfile />} />
+          <Route path="/dashboard/change-password" element={<ChangePassword />} />
           <Route 
             path="/admin" 
             element={

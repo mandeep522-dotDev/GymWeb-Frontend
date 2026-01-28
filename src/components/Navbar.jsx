@@ -57,7 +57,7 @@ const Navbar = () => {
           align-items:center;
           justify-content:space-between;
           padding:12px 20px;
-          background:#fff;
+          background: #fff;
           box-shadow:0 2px 6px rgba(0,0,0,0.05);
           font-family:Arial, Helvetica, sans-serif;
         }
