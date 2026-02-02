@@ -83,7 +83,7 @@ export default function App() {
         <div style={styles.app}>
           <canvas ref={canvasRef} style={styles.canvas} />
           <div style={styles.hero}>
-            <h1 style={styles.h1}>Generation-V</h1>
+            <h1 style={styles.h1} className="text-white">Generation-V</h1>
             <h2 style={styles.h2}>GYM</h2>
             <p style={styles.p}>Lorem ipsum dolor sit amet...</p>
           </div>

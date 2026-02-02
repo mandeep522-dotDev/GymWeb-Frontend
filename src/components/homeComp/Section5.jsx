@@ -26,7 +26,7 @@ const Section5 = () => {
     <div className="w-[100%] flex flex-col items-center justify-center py-4">
         <h1 className="text-4xl font-serif font-bold">Gallery</h1>
         <p className="text-center font-serif mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, pariatur?</p>
-        <div className="relative w-[85vw] h-[40vh] flex items-center justify-center">
+        <div className="relative w-[85vw] h-[50vh] flex items-center justify-center">
           <button
             onClick={prevSlide}
             className="absolute left-0 z-10 bg-gray-200 hover:bg-gray-400 rounded-full p-2"

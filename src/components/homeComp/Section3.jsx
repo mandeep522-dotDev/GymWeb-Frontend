@@ -58,7 +58,7 @@ export default function TextAnime() {
       </svg>
       <div className='heading'>
             <h1>HEADING</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis et accusamus sed. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur eaque in aut minus, quos quidem esse non assumenda, ea aliquid accusamus modi. Rem!</p>
+            <p>Experience our advanced gym with modern equipment, smart training zones, and expert guidance. Designed for serious results, it helps you train smarter, recover faster, and achieve peak fitness efficiently.</p>
         </div>
     </div>
   );

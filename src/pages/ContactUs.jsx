@@ -22,7 +22,6 @@ const ContactUs = () => {
     <div className="min-h-screen bg-gray-200 flex items-center justify-center px-4">
       <div className="max-w-5xl w-full bg-white shadow-lg rounded-xl overflow-hidden grid md:grid-cols-2">
 
-        {/* LEFT BLUE SECTION */}
         <div className="bg-indigo-600 text-white p-8 flex flex-col justify-between">
           <div>
             <h2 className="text-3xl font-bold mb-4">Contact Us</h2>
@@ -38,7 +37,6 @@ const ContactUs = () => {
             </div>
           </div>
 
-          {/* SOCIAL ICONS */}
           <div className="flex gap-4 mt-8">
             <a
               href="https://www.facebook.com/profile.php?id=100008727150631"
