@@ -34,6 +34,7 @@ export default function Login() {
       else navigate("/dashboard");
     } catch (err) {
       console.log(err.response?.data || err.message);
+      alert(err.message)
     }
   };
 

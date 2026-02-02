@@ -19,6 +19,7 @@ import Register from "./pages/Register"
 import AdminLayout from "./components/admin/AdminLayout"
 import UpdateProfile from "./pages/user/UpdateProfile.jsx";
 import ChangePassword from "./pages/user/ChangePassword.jsx";
+import Subscriber from "./pages/admin/Subscribers.jsx"
 
 
 function App() {
@@ -61,6 +62,16 @@ function App() {
               <ProtectedRoute roles={["admin"]}>
                 <AdminLayout>
                   <AdminClasses />
+                </AdminLayout>
+              </ProtectedRoute>
+            } 
+          />
+          <Route 
+            path="/admin/subscribers" 
+            element={
+              <ProtectedRoute roles={["admin"]}>
+                <AdminLayout>
+                  <Subscriber />
                 </AdminLayout>
               </ProtectedRoute>
             } 

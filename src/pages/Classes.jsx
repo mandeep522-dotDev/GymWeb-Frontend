@@ -1,11 +1,22 @@
 import { useEffect, useState } from "react";
 import api from "../api/axios";
+import { useNavigate } from "react-router-dom";
 
 export default function AdminClasses() {
   const [classes, setClasses] = useState([]);
+  const [count, setCount] = useState(0)
+  const navigate = useNavigate();
 
+  const handleCount = () =>{
+    setCount(prev => prev + 1);
+  }
+  if(count > 0){
+      navigate("/dashboard", {
+      state: {count: count}
+    })
+  }
   
-
+  
   useEffect(() => {
     const loadClasses = async () => {
         const res = await api.get("/classes/get-classes");
@@ -26,7 +37,8 @@ export default function AdminClasses() {
 
             <p className="text-gray-900">Description : {c.description}</p>
             <button
-              className="mt-4 bg-red-600 px-3 py-1 rounded hover:bg-red-700">
+              onClick={handleCount}
+              className="mt-4 bg-amber-500 px-3 py-1 rounded hover:bg-amber-600">
               Join Class
             </button>
           </div>

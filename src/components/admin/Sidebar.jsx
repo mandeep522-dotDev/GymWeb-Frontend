@@ -21,8 +21,8 @@ export default function Sidebar({ admin }) {
         </NavLink>
         <NavLink to="/admin/manageplans" className={linkClass}>Plans</NavLink>
 
-        <NavLink to="/admin/users" className={linkClass}>
-          Users
+        <NavLink to="/admin/subscribers" className={linkClass}>
+          Subscriber
         </NavLink>
       </nav>
     </aside>
